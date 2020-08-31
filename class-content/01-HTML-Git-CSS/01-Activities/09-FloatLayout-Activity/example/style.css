@@ -1,0 +1,37 @@
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #ff0000;
+  overflow: auto;
+}
+
+.box {
+  float: right;
+  margin: 15px;
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: rgb(207, 232, 220);
+  padding: 1em;
+}
+
+.test {
+  padding: 10px;
+  color: #fff;
+  background-color: #445555;
+}
+
+.test2 {
+  clear: both;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
