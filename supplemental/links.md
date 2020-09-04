@@ -111,6 +111,7 @@ Supplemental tools for diagramming, wireframing and testing.
 - [Interaction Design Foundation](https://www.interaction-design.org/)
 - [Design Thinking](https://www.nngroup.com/articles/design-thinking/)
 - [UX Design Guides](http://uxdesign.uw.edu/)
+- [Pick the right fonts, damnit!](https://uxdesign.cc/pick-the-right-fonts-damnit-babc6191d0c0)
 
 ## HTML
 
