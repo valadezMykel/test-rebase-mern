@@ -97,6 +97,9 @@ You will curse git. But without it, it is impossible to code in a team.
 
 Supplemental tools for diagramming, wireframing and testing.
 
+- [Figma](https://www.figma.com/)
+- [Sketch](https://www.sketch.com/)
+- [Invision Studio](https://www.invisionapp.com/studio)
 - [draw.io](https://www.draw.io/)
   Flowchart and diagramming
 - [WebPageTest](https://www.webpagetest.org/)
@@ -106,6 +109,7 @@ Supplemental tools for diagramming, wireframing and testing.
 
 ## Design - UI - UX
 
+- [What is a wireframe](https://careerfoundry.com/en/blog/ux-design/what-is-a-wireframe-guide/)
 - [The Definition of User Experience](https://www.nngroup.com/articles/definition-user-experience/)
   Jakob Nielsen is a long time leader in User Experience design
 - [Interaction Design Foundation](https://www.interaction-design.org/)
