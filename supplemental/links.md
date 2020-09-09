@@ -159,6 +159,10 @@ Supplemental tools for diagramming, wireframing and testing.
 
 ## Javascript
 
+### Introduction
+
+- [Javascript Fundamentals](https://javascript.info/js)
+
 ### Exercises
 
 - [A Smarter Way to Learn JavaScript - Index of JavaScript Exercises](https://www.asmarterwaytolearn.com/js/index-of-exercises.html)
