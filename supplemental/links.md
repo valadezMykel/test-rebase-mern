@@ -199,6 +199,7 @@ Supplemental tools for diagramming, wireframing and testing.
 
 ### jQuery
 
+- [Should you use or learn jQuery in 2020?](https://flaviocopes.com/jquery/)
 - [jQuery promises: done() and then() are not the same](https://makandracards.com/makandra/39543-jquery-promises-done-and-then-are-not-the-same)
 
 ## Interviewing
