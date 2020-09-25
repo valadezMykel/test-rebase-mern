@@ -166,6 +166,8 @@ Supplemental tools for diagramming, wireframing and testing.
 ### Exercises
 
 - [A Smarter Way to Learn JavaScript - Index of JavaScript Exercises](https://www.asmarterwaytolearn.com/js/index-of-exercises.html)
+- [Codeingame](https://www.codingame.com/start)
+- [Screeps](https://screeps.com/)
 
 ### What is the DOM?
 
