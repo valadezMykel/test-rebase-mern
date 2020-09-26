@@ -16,6 +16,7 @@ As with any profession, staying up with trends is vital to growth. Here are a ha
 - [Medium](https://medium.com)  
   If you customize your interests, you will get a feed of dev related stuff
 - [Smashing Magazine](https://www.smashingmagazine.com)
+- [web.dev](https://web.dev/blog/)
 
 ## Books
 
@@ -133,6 +134,7 @@ Supplemental tools for diagramming, wireframing and testing.
 - [Learning Layout](http://learnlayout.com/no-layout.html)
 - [CSS Tricks](https://css-tricks.com/)
 - [Hover.css](http://ianlunn.github.io/Hover/)
+- [Ten modern layouts in one line of CSS](https://web.dev/one-line-layouts/)
 
 ## Grid
 
@@ -185,6 +187,7 @@ Supplemental tools for diagramming, wireframing and testing.
 
 ### Scope, context, hoisting, declaring variables
 
+- [What You Should Already Know about JavaScript Scope](https://spin.atomicobject.com/2014/10/20/javascript-scope-closures/)
 - [JavaScript Scope and Closures](https://css-tricks.com/javascript-scope-closures/)
 - [Understanding Scope in JavaScript](https://scotch.io/tutorials/understanding-scope-in-javascript)
 - [JavaScript Variables: The Difference Between Var, Let, and Const](https://medium.com/better-programming/javascript-variables-the-difference-between-var-let-and-const-10efef5d2728)
@@ -269,6 +272,7 @@ prototype is the object that is used to build __proto__ when you create an objec
 ## Express
 
 - [Serving static files in Express](https://expressjs.com/en/starter/static-files.html)
+- [How to Handle Errors in an Express and Node.js App](https://levelup.gitconnected.com/how-to-handle-errors-in-an-express-and-node-js-app-cb4fe2907ed9)
 
 ## Model View Controller (MVC)
 
