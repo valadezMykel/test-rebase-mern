@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Favorite Movies</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Basic Table</h2>
+      <p>
+        The .table class adds basic styling (light padding and only horizontal
+        dividers) to a table:
+      </p>
+      <table class="table">
+        <thead></thead>
+        <tbody>
+          <!-- Insert additional movie rows here -->
+        </tbody>
+      </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      // Data dependencies
+      var movies = ["Interstellar", "Mr. Nobody", "Star Wars", "The Departed"];
+      const fieldList = ["Title", "Year", "Actors", "Runtime", "Director"];
+
+      /**
+       * Fetches a movie from the OMDB Database
+       * @param String movie
+       * @param String fields
+       * @return void
+       */
+      function fetchMovie(movie, fields) {
+        var queryURL =
+          "https://www.omdbapi.com/?t=" + movie + "&apikey=trilogy";
+
+        $.ajax({
+          url: queryURL,
+          method: "GET",
+        }).then(function (response) {
+          let rowEl = $("<tr>");
+          fields.forEach(function (fieldName) {
+            rowEl.append($("<td>").text(response[fieldName]));
+          });
+          $(".table tbody").append(rowEl);
+        });
+      }
+
+      /**
+       * Creates a table head row for the provided data fields
+       * @param Array fields
+       * @return void
+       */
+      function createHeadRow(fields) {
+        const headTrEl = $("<tr>");
+        fields.forEach(function (field) {
+          headTrEl.append($("<th class='col'>").text(field));
+        });
+        $(".table thead").append(headTrEl);
+      }
+
+      /**
+       * Builds table rows for a list of movies and the desired fields
+       * @param Array movies a user provided list of movie names
+       * @param Array fields
+       * @returns void
+       */
+      function buildMovieTable(movies, fields) {
+        createHeadRow(fields);
+        movies.forEach(function (movieName) {
+          fetchMovie(movieName, fields);
+        });
+      }
+
+      // Build Table
+      buildMovieTable(movies, fieldList);
+    </script>
+  </body>
+</html>
