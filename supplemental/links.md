@@ -37,6 +37,7 @@ I'm always in need of refernce material. Books are usually helpful to get up and
 ## Web Development as Profession
 
 - [20 Things That Are Good to Know When You Start Web Developing](https://medium.com/better-programming/20-things-that-are-good-to-know-when-you-start-web-developing-82f6c81b84a)
+- [5 Reasons Why You're NOT Becoming a Programmer](https://www.youtube.com/watch?v=HJtNUW6kk1E)
 - [20 essential terms in web development](https://medium.com/@ho.wan/20-essential-terms-in-web-development-1cf7ca5a7205)
 - [How to remember everything you are learning](https://www.youtube.com/watch?v=aMzAjQ4uUag)
 - [How To Use Developer Documentation](https://www.youtube.com/watch?v=s1PLS3SQHQ0)
