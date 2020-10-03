@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bujumbura Data</title>
+  </head>
+
+  <body>
+    <!-- Retrieved data will be dumped here -->
+    <div class="city"></div>
+    <div class="wind"></div>
+    <div class="humidity"></div>
+    <div class="temp"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      const cityEl = $(".city");
+      const windEl = $(".wind");
+      const humidityEl = $(".humidity");
+      const tempEl = $(".temp");
+
+      // Things to accomplish:
+      const apiUrl =
+        "https://api.openweathermap.org/data/2.5/weather?q=Bujumbura&appid=78c022ae7b87430bbaabb56f3fd651a0";
+      // Get an API Key from OpenWeatherMap API
+
+      // Create an AJAX call to retrieve data Log the data in console
+      $.ajax({ url: apiUrl, method: "GET" }).then(function (response) {
+        console.log(response);
+        cityEl.text(response.name);
+        windEl.text(response.wind.speed + "m/s");
+        humidityEl.text(response.main.humidity + "%");
+        tempEl.html(convertKtoF(parseFloat(response.main.temp)) + "&deg;F");
+      });
+
+      function convertKtoF(tempInKelvin) {
+        // (360K − 273.15) × 9/5 + 32 = 188.33°F
+        return ((tempInKelvin - 273.15) * 9) / 5 + 32;
+      }
+      // Log the data in HTML
+      // Scream Ushindi (victory in Swahili)! at the top of your lungs
+    </script>
+  </body>
+</html>
