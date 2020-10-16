@@ -7,36 +7,60 @@
   text-align: center;
 }
 
-body {
-}
-
 header {
   padding: 20px;
   margin-bottom: 20px;
   color: #333;
-  background: #FFA500;
+  background: #ccc;
 }
 
 section {
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 25px;
+  background-color: #04ff24;
 }
 
-#left {
+#left,
+#middle,
+#right{
+  width: 33.33%;
+  float: left;
 }
 
 #middle {
-}
-
-#right {
+  background-color: #888;
 }
 
 #full {
+  background-color: #f02780;
+  clear: both;
+  height: 300px;
+  
 }
 
 #division {
+  background-color: #6ea3da;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding: 20px;
 }
 
 aside {
+  background-color: #ffffff;
+  float: left;
+  padding: 120px;
+  margin-left: 20px;
 }
 
 footer {
+  background-color: #ccc;
+  padding: 20px;
+
 }
+
+/* .clearfix::after {
+  content: ""; 
+  display: block;
+  clear: both;
+} */

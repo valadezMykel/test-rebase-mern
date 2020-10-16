@@ -24,6 +24,7 @@ function sendMessage() {
   imgEl.setAttribute("src", "images/image_1.jpg");
   mainEl.appendChild(imgEl);
 
+
 }
 
 setTime();

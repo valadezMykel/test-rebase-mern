@@ -79,6 +79,44 @@ $(document).ready(function() {
 
 // Your code here...
 
+  // let firstNum;
+  // let secondNumber;
+  let numbersArr = ["", ""];
+  let activeLine = 0;
+  let firstNumLine = $("#first-number");
+  let secondNumLine = $("#second-number");
+  console.log(firstNumLine);
+  let activeTextArea = [firstNumLine, secondNumLine];
+
+
+  $(".number").on("click", function(event){
+    console.log(jQuery(this).attr("value"));
+    numbersArr[activeLine] += jQuery(this).attr("value");
+    // activeTextArea[activeLine].text = numbersArr[activeLine];
+    $("#first-number").text = numbersArr[activeLine];
+  });
+
+  $(".operator").on("click", function(event){
+    let operator = jQuery(this).attr("value");
+
+    // switch(operator){
+    //   case "plus":
+    //     break;
+    //   case "minus"
+
+    //   break
+
+    // }
+  });
+
+  $(".equal").on("click", function(event){
+    console.log(jQuery(this).attr("value"));
+  });
+
+  $(".clear").on("click", function(event){
+    console.log(jQuery(this).attr("value"));
+    $("#first-number #second-number #operator #result").empty();
+  });
 
 });
 

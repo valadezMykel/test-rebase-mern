@@ -9,7 +9,18 @@
     <script type="text/javascript">
 
     // Write code here!
+      var yesOrNo = confirm ("do you like me?");
 
+      while(!yesOrNo){
+        var areYOuSUre = confirm ("are you sure?");
+
+        if(areYOuSUre){
+          yesOrNo = true;
+          break;
+        }
+      }
+      var why = prompt ("what do you like about me?");
+      alert(yesOrNo + " I am a " + why);
     </script>
 
   </body>

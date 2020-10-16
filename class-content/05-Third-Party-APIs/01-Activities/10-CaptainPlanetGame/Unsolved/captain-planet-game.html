@@ -83,6 +83,12 @@
               <button class="btn btn-dark btn-lg back-button">
                 <span class="fa fa-comment"></span> Go Planet!</button>
             </div>
+            <div class="text-center">
+              <button class="btn btn-dark btn-lg" id="backflip">
+                backfilp
+              </button>
+
+            </div>
           </div>
         </div>
       </div>
@@ -150,6 +156,25 @@
     $(".back-button").on("click", function() {
       captainPlanet.animate({ top: "50px", left: "80px" }, "fast");
     });
+
+    $("#backflip").on("click", function() {
+      captainPlanet.rotate({angle:0, animateTo:180})
+    })
+
+  //     captainPlanet..rotate({bind:{
+  // click: function(){
+  //   $(this).rotate({
+  //     angle: 0,
+  //     animateTo:180
+  //     })
+  //   });
+
+    // <div class="text-center">
+    //           <button class="btn btn-dark btn-lg" id="backflip">
+    //             backfilp
+    //           </button>
+
+    //         </div>
 
     // Keyboard move controls
     $(document).keyup(function(e) {

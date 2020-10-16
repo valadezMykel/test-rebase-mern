@@ -12,13 +12,13 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
-    //
+    //sets an event handler for when the #cat-button is clicked
     $("#cat-button").on("click", function() {
 
-      //
+      //this is the url to call when using ajax
       var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cats";
 
-      //
+      //This runs a function that calls for an object from the above url
       $.ajax({
         url: queryURL,
         method: "GET"

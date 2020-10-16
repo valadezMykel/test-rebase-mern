@@ -10,6 +10,14 @@ var saveBtn = document.querySelector("#save");
 var people = [{ name: "Bob" }];
 var currentId = 0;
 
+peopleListEl.addEventListener("click", () => {
+  var someVariable = event.target;
+  if(someVariable.matches("button")){
+    modalEl.removeAttribute("class", "modal")
+  }
+  
+})
+
 function addPersonToList(event) {
   event.preventDefault();
   var name = nameEl.value;

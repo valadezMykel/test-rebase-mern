@@ -38,11 +38,13 @@ signUpButton.addEventListener("click", function(event) {
     displayMessage("success", "Registered successfully");
 
     // set new submission
+    user = JSON.stringify(user)
     console.log(user);
     localStorage.setItem("user", user);
     
     // get most recent submission
     var lastUser = localStorage.getItem("user");
+    lastUser = JSON.parse(lastUser)
     userFirstNameSpan.textContent = lastUser.firstName;
     userLastNameSpan.textContent = lastUser.lastName;
     userEmailSpan.textContent = lastUser.email;

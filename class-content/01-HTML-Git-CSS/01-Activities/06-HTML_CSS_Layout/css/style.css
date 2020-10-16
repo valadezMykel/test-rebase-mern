@@ -1,0 +1,20 @@
+body{
+    background-color: #efeee7;
+    font: Georgia, "Times New Roman";
+    color: #333333;
+
+}
+
+header{
+    background-color: #333333;
+}
+
+h1{
+
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}

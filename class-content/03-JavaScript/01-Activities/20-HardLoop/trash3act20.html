@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var myFarm = ["chickens", "pigs", "cows", "horses", "ostriches", "cockroaches"];
+
+        for(let i = 0; i < myFarm.length; i++){
+            console.log(myFarm)
+            if (myFarm[i].charAt(0) == "c" ) {
+                alert(myFarm[i] + " starts with a c");
+            }
+            else if ( myFarm[i].charAt(0) == "o") {
+                alert(myFarm[i] + " starts with an o");
+            }
+            else{
+                alert(myFarm[i] + " is dumb as hell");
+            }
+
+        }
+    </script>
+</body>
+</html>

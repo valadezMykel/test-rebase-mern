@@ -7,6 +7,8 @@ var todos = ["Learn HTML", "Learn CSS", "Learn JavaScript"];
 
 renderTodos();
 
+
+
 function renderTodos() {
   // Clear todoList element and update todoCountSpan
   todoList.innerHTML = "";
@@ -21,3 +23,17 @@ function renderTodos() {
     todoList.appendChild(li);
   }
 }
+
+todoForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  var todoText = todoInput.nodeValue.trim();
+
+  if(todoText === "") {
+    return;
+  }
+
+  todos.push(todoText);
+  todoInput.value = "";
+  renderTodos();
+});

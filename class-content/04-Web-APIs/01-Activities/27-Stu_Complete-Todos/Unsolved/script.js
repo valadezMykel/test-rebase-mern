@@ -18,7 +18,12 @@ function renderTodos() {
 
     var li = document.createElement("li");
     li.textContent = todo;
+    li.setAttribute("data-index", i);
     todoList.appendChild(li);
+    let utt = document.createElement("button");
+    utt.textContent = "complete";
+    li.appendChild(utt);
+    
   }
 }
 

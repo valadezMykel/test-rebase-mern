@@ -7,13 +7,23 @@
   <body>
     <script type="text/javascript">
       // Loop 10 times
-      for (var i = 0; i < 10; i++) {
+      // for (var i = 0; i < 10; i++) {
         // Generate a random decimal number between 0 and 1
-        var num = Math.random();
+        var num = Math.floor((Math.random()*10)+1);
+
+        if (num === 10) {
+          console.log("YOU'RE COOL AND SMELLY")
+        }
+        else if (num > 6) {
+          console.log("you smell bad");
+        }
+        else{
+          console.log("You're super cool");
+        }
 
         // Display in console
         console.log(num);
-      }
+      // }
     </script>
   </body>
 </html>

@@ -1,0 +1,13 @@
+*{
+    box-sizing: 60px;
+}
+
+div{
+    background-color: #cf2727;
+    padding: 20px;
+}
+div a{
+    color: #004028;
+    padding: 20px;
+
+}
