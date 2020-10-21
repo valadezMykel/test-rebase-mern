@@ -10,54 +10,53 @@ In this unit, you will learn how to initialize a Node.js project, install third-
 
 ## Key Topics
 
-* Node.js
+- Node.js
 
-    * process.argv
+  - process.argv
 
-    * fs
+  - fs
 
-* Modularization
+- Modularization
 
-    * require
+  - require
 
-    * module.exports
+  - module.exports
 
-* npm
+- npm
 
-    * package.json
+  - package.json
 
-    * npm init
+  - npm init
 
-    * node_modules
+  - node_modules
 
-* Inquirer
+- Inquirer
 
-* ES6
+- ES6
 
-    * let and const
+  - let and const
 
-    * Arrow functions
+  - Arrow functions
 
-    * Template literals
+  - Template literals
 
-    * Array methods (map, filter, reduce)
+  - Array methods (map, filter, reduce)
 
-    * Spread and rest
+  - Spread and rest
 
-    * Destructuring arrays and objects
+  - Destructuring arrays and objects
 
-* Asynchronous JavaScript
+- Asynchronous JavaScript
 
-    * Callbacks
+  - Callbacks
 
-    * Promises
+  - Promises
 
-    * Async/await
+  - Async/await
 
-    * Fetch API
+  - Fetch API
 
-    * Axios
- 
+  - Axios
 
 ## Comprehension Check
 
@@ -69,44 +68,53 @@ You will be employer-ready if you can answer the following questions:
 
 3. What are three approaches to handling asynchronous JavaScript?
 
-
 ## Learning Objectives
 
-You will be employer-competitive if are able to: 
+You will be employer-competitive if are able to:
 
-* Build interactive command-line applications that process user input.
+- Build interactive command-line applications that process user input.
 
-* Explain modularization and how it relates to npm and the standard library.
+- Explain modularization and how it relates to npm and the standard library.
 
-* Initialize new Node.js projects with npm, and install and import dependencies.
+- Initialize new Node.js projects with npm, and install and import dependencies.
 
-* Explain the importance and usefulness of ES6+ concepts such as `let`, `const`, and arrow functions.
+- Explain the importance and usefulness of ES6+ concepts such as `let`, `const`, and arrow functions.
 
-* Handle asynchrony with callbacks, Promises, and async/await.
+- Handle asynchrony with callbacks, Promises, and async/await.
 
-* Make server-side API calls with the Fetch API and Axios.
-
+- Make server-side API calls with the Fetch API and Axios.
 
 ## Homework
 
 Create a command-line application that uses input from a user to dynamically generates a good README for a GitHub project.
 
-
 ## Heads Up
 
-* Starting this unit, you will begin to use Node.js. Be sure to have it installed on your computer **before** attending your classes. You can follow the installation instructions for [Mac](./04-Important/nodejs-install-mac.md) and [Windows](./04-Important/nodejs-install-win.md) computers.  
+- Starting this unit, you will begin to use Node.js. Be sure to have it installed on your computer **before** attending your classes. You can follow the installation instructions for [Mac](./04-Important/nodejs-install-mac.md) and [Windows](./04-Important/nodejs-install-win.md) computers.
 
 ## Helpful Links
 
-* [Wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js)
+- [Wikipedia: Node.js](https://en.wikipedia.org/wiki/Node.js)
 
-* [Wikipedia: V8](https://en.wikipedia.org/wiki/Chrome_V8)
+- [Wikipedia: V8](https://en.wikipedia.org/wiki/Chrome_V8)
 
-* [Wikipedia: Server](https://en.wikipedia.org/wiki/Server_(computing))
+- [Wikipedia: Server](<https://en.wikipedia.org/wiki/Server_(computing)>)
 
-* [fs Documentation](https://node.readthedocs.io/en/latest/api/fs/)
+- [fs Documentation](https://node.readthedocs.io/en/latest/api/fs/)
 
-* [InquirerJS](https://www.npmjs.com/package/inquirer/v/0.2.3)
+- [InquirerJS](https://www.npmjs.com/package/inquirer/v/0.2.3)
 
-- - -
+---
+
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+- What is node? - https://www.codecademy.com/articles/what-is-node
+- What is npm? - https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
+- The Basics of package.json in Node.js and npm- https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/
+- What is Command Line Interface (CLI)? - https://www.w3schools.com/whatis/whatis_cli.asp
+- inquirer package - https://www.npmjs.com/package/inquirer
+- WTF is ES6, ES8, ES 2017, ECMAScript - https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c
+- ECMAScript 6 — New Features: Overview & Comparison - http://es6-features.org/
+- The Complete ECMAScript 2015-2019 Guide - https://flaviocopes.com/ecmascript/
+- Master the JavaScript Interview: What is a Promise? - https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
+- Asynchronous Programming - https://eloquentjavascript.net/11_async.html
