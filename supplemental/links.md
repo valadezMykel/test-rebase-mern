@@ -217,6 +217,10 @@ Supplemental tools for diagramming, wireframing and testing.
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md)
 - [The Must-Know Clean Code Principles](https://medium.com/swlh/the-must-know-clean-code-principles-1371a14a2e75)
 
+### Javascript under the hood
+
+- [Inside the Javascript Engine: Compiler and Interpreter](https://medium.com/@allansendagi/inside-the-javascript-engine-compiler-and-interpreter-c8faa638b0d9)
+
 ### jQuery
 
 - [Should you use or learn jQuery in 2020?](https://flaviocopes.com/jquery/)
