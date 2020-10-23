@@ -118,6 +118,20 @@ Supplemental tools for diagramming, wireframing and testing.
 - [Design Thinking](https://www.nngroup.com/articles/design-thinking/)
 - [UX Design Guides](http://uxdesign.uw.edu/)
 - [Pick the right fonts, damnit!](https://uxdesign.cc/pick-the-right-fonts-damnit-babc6191d0c0)
+- [12 Timeless UI Layouts & Website Design Patterns Analyzed](https://www.uxpin.com/studio/blog/web-layout-best-practices-12-timeless-ui-patterns-explained/)
+
+## Design Inspiration
+
+- [Dribbble](https://dribbble.com/)
+- [/r/web_design](https://www.reddit.com/r/web_design/)
+- [Envato Elements - Web Templates](https://elements.envato.com/web-templates)
+  Do not use the code from these for projects. Just use these as inspiration.
+- [8 innovative web design trends for 2020](https://99designs.com/blog/trends/web-design-trends/)
+
+## Design Elements
+
+- [Envato Elements](https://elements.envato.com/all-items)
+- [20 of the best places to find free assets for your graphic design projects](https://www.creativeboom.com/resources/20-of-the-best-places-to-find-free-assets-for-your-graphic-design-projects/)
 
 ## HTML
 
@@ -136,6 +150,7 @@ Supplemental tools for diagramming, wireframing and testing.
 - [CSS Tricks](https://css-tricks.com/)
 - [Hover.css](http://ianlunn.github.io/Hover/)
 - [Ten modern layouts in one line of CSS](https://web.dev/one-line-layouts/)
+- [Flexbox Froggy](https://flexboxfroggy.com/)
 
 ## Grid
 
@@ -200,6 +215,7 @@ Supplemental tools for diagramming, wireframing and testing.
 
 - [JavaScript Clean Code - Best Practices](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md)
+- [The Must-Know Clean Code Principles](https://medium.com/swlh/the-must-know-clean-code-principles-1371a14a2e75)
 
 ### jQuery
 
