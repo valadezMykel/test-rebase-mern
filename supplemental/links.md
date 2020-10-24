@@ -180,6 +180,7 @@ Supplemental tools for diagramming, wireframing and testing.
 ### Introduction
 
 - [Javascript Fundamentals](https://javascript.info/js)
+- [Changes in javascript over time](https://codeburst.io/changes-in-java-script-over-time-8243f67259dc)
 
 ### Exercises
 
