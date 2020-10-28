@@ -1,4 +1,4 @@
-var $root = document.querySelector("#root");
+const $root = document.querySelector("#root");
 
 var score;
 var targetScore;
