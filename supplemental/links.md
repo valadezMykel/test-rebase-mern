@@ -180,6 +180,7 @@ Supplemental tools for diagramming, wireframing and testing.
 ### Introduction
 
 - [Javascript Fundamentals](https://javascript.info/js)
+- [Changes in javascript over time](https://codeburst.io/changes-in-java-script-over-time-8243f67259dc)
 
 ### Exercises
 
@@ -216,6 +217,10 @@ Supplemental tools for diagramming, wireframing and testing.
 - [JavaScript Clean Code - Best Practices](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md)
 - [The Must-Know Clean Code Principles](https://medium.com/swlh/the-must-know-clean-code-principles-1371a14a2e75)
+
+### Javascript under the hood
+
+- [Inside the Javascript Engine: Compiler and Interpreter](https://medium.com/@allansendagi/inside-the-javascript-engine-compiler-and-interpreter-c8faa638b0d9)
 
 ### jQuery
 
