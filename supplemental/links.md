@@ -80,6 +80,10 @@ You will curse git. But without it, it is impossible to code in a team.
 - [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 - [Commit Changes to Your Codebase the Right Way](https://www.sitepoint.com/committing-changes-right-way/)
 
+## Github.io
+
+- [How long does it take for GitHub page to show changes after changing index.html?](https://stackoverflow.com/questions/24851824/how-long-does-it-take-for-github-page-to-show-changes-after-changing-index-html#:~:text=3%20Answers&text=The%20first%20time%20you%20generate,changes%20to%20your%20GitHub%20repository.)
+
 ### More on Git commit messages
 
 **Do**
