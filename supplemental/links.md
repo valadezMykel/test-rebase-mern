@@ -325,6 +325,7 @@ prototype is the object that is used to build __proto__ when you create an objec
 - [The Complete ECMAScript 2015-2019 Guide](https://flaviocopes.com/ecmascript/)
 - [Understanding ES6 Modules](https://www.sitepoint.com/understanding-es6-modules/)
 - [JavaScript Modules Part 2: Module Bundling](https://www.freecodecamp.org/news/javascript-modules-part-2-module-bundling-5020383cf306/)
+- [When not to use arrow functions in Javascript](https://dmitripavlutin.com/when-not-to-use-arrow-functions-in-javascript/)
 
 ## Callbacks - Promises - async/await
 
