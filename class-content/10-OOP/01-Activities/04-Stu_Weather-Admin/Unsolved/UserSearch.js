@@ -8,7 +8,7 @@ const UserSearch = function(name, location) {
   this.date = Date.Now();
 
   this.getWeather = () => {
-    weather.search({ search: this.location, degreeType: "F" }, (err, result) => {
+    weather.find({ search: this.location, degreeType: "F" }, (err, result) => {
       if (err) {
         console.log(err);
       }
