@@ -1,18 +1,20 @@
 // Dependencies
-var http = require("http");
+const http = require("http");
+const url = require("url");
 
-var PORT = 8080;
+const PORT = 8080;
 
-var server = http.createServer(handleRequest);
+const server = http.createServer(handleRequest);
 
 function handleRequest(req, res) {
+  // parse the GET query parameters from the URL
+  const queryObject = url.parse(req.url,true).query;
 
   // Saving the request data as a variable
-  var requestData = "";
+  let requestData = "";
 
   // When the server receives data...
   req.on("data", function(data) {
-
     // Add it to requestData.
     requestData += data;
   });
@@ -21,7 +23,7 @@ function handleRequest(req, res) {
   req.on("end", function() {
 
     // Log (server-side) the request method, as well as the data received!
-    console.log("You did a", req.method, "with the data:\n", requestData);
+    console.log("You did a", req.method, "with the data:\n", requestData, "\nwith parameters: ", queryObject);
     res.end();
   });
 

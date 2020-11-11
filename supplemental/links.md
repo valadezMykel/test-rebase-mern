@@ -2,6 +2,13 @@
 
 Here is a collection of links that support the curriculum and fill in knowledge gaps. I will refer to these during the course.
 
+## Learning how to code
+
+- [Why learning how to code is so damn hard](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/)
+- [Your First Year in Code](https://leanpub.com/firstyearincode)
+- [How to remember everything you are learning](https://www.youtube.com/watch?v=aMzAjQ4uUag)
+- [20 Things That Are Good to Know When You Start Web Developing](https://medium.com/better-programming/20-things-that-are-good-to-know-when-you-start-web-developing-82f6c81b84a)
+
 ## Text Editing
 
 - [How To Become A True Keyboard Warrior (And Stop Using Your Mouse)](https://levelup.gitconnected.com/how-to-become-a-true-keyboard-warrior-and-stop-using-your-mouse-a87cd29c5801)
@@ -36,10 +43,9 @@ I'm always in need of refernce material. Books are usually helpful to get up and
 
 ## Web Development as Profession
 
-- [20 Things That Are Good to Know When You Start Web Developing](https://medium.com/better-programming/20-things-that-are-good-to-know-when-you-start-web-developing-82f6c81b84a)
 - [5 Reasons Why You're NOT Becoming a Programmer](https://www.youtube.com/watch?v=HJtNUW6kk1E)
 - [20 essential terms in web development](https://medium.com/@ho.wan/20-essential-terms-in-web-development-1cf7ca5a7205)
-- [How to remember everything you are learning](https://www.youtube.com/watch?v=aMzAjQ4uUag)
+
 - [How To Use Developer Documentation](https://www.youtube.com/watch?v=s1PLS3SQHQ0)
 
 ### Open Source Contributing
