@@ -1,7 +1,8 @@
 {
-  "name": "expresscalculator",
+  "name": "03-seinfeldapp",
   "version": "1.0.0",
-  "main": "expressCalculator.js",
+  "description": "* **Instructions**",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +11,5 @@
   "dependencies": {
     "express": "^4.17.1",
     "mysql": "^2.18.1"
-  },
-  "devDependencies": {},
-  "description": ""
+  }
 }

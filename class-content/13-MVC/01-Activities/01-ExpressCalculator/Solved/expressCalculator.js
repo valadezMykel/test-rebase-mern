@@ -9,41 +9,36 @@ var PORT = process.env.PORT || 8080;
 var app = express();
 
 // Routes
-// What routes do you need to have? Which ones are optional?
-// TODO Add your routes here
-app.get("/:operation/:num1/:num2", function(req, res) {
-  // TODO parse out the variables from the request
-  let operation = req.params.operation;
-  let num1 = parseInt(req.params.num1);
-  let num2 = parseInt(req.params.num2);
+app.get("/:operation/:firstNum/:secondNum", function(req, res) {
 
   // Parameters are received from the URL
-  // TODO make sure they're converted to integers (and not strings)
-  // Parameters are converted to integers
+  var operation = req.params.operation;
 
-  // Initialize the result variable to send later
+  // Parameters are converted to integers
+  var firstNum = parseInt(req.params.firstNum);
+  var secondNum = parseInt(req.params.secondNum);
   var result;
+
   // Switch statement chooses operation based on the operation parameter.
   switch (operation) {
-  // BONUS - How could you use * + etc. inside the app.get()?
   case "add":
-    result = num1 + num2;
-    // Add your logic here. Pun intended.
+  case "+": // Bonus.  Example:  http://localhost:3002/+/6/4 --> 10
+    result = firstNum + secondNum;
     break;
   case "subtract":
-    result = num1 - num2;
-    // Subtract logic
+  case "-": // Bonus.  Example:  http://localhost:3002/-/6/4 --> 2
+    result = firstNum - secondNum;
     break;
   case "multiply":
-    // Multiply
-    num1 * num2;
+  case "*": // Bonus.  Example:  http://localhost:3002/*/3/4 --> 12
+    result = firstNum * secondNum;
     break;
   case "divide":
-    // Divide
-    return num1 / num2;
+  case "/": // Bonus.  This char has to be escaped in the url since slashes separate params
+    // Example:  http://localhost:3002/%2F/14/2 --> 7
+    result = firstNum / secondNum;
     break;
   default:
-    // Handle anything that isn't specified
     result = "Sorry! The only valid operations are add, subtract, multiply, and divide.";
   }
 

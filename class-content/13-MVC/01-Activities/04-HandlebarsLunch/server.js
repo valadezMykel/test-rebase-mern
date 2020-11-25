@@ -24,7 +24,7 @@ var lunches = [
 
 // Routes
 app.get("/weekday", function(req, res) {
-  res.render("index", lunches[0]);
+  res.render("index", lunches);
 });
 
 app.get("/weekend", function(req, res) {
