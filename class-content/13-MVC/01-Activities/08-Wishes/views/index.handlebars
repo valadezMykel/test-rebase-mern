@@ -1,0 +1,18 @@
+<h1>whish Saver</h1>
+
+<h3>Save the whishes you need to get to later</h3>
+
+<ul>
+  {{#each whishes}}
+  	<li>
+  	   <p>ID: {{this.id}}</p>
+       <p>Task: {{this.whish}}</p>
+  	</li>
+  {{/each}}
+</ul>
+
+<form action="/" method="POST">
+	<textarea type="text" name="whish"></textarea>
+
+	<button type="submit">Submit</button>
+</form>
