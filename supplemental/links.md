@@ -376,6 +376,7 @@ prototype is the object that is used to build __proto__ when you create an objec
 
 ## Optimization
 
+- [A Beginner’s Guide to Webpack](https://www.sitepoint.com/webpack-beginner-guide/)
 - [Find out how you stack up to new industry benchmarks for mobile page speed](https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/)
 - [Speed Is A Killer – Why Decreasing Page Load Time Can Drastically Increase Conversions](https://neilpatel.com/blog/speed-is-a-killer/)
 - [Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/)
