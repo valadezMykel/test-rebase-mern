@@ -15,19 +15,19 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populate", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populate", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
 
 db.Library.create({ name: "Campus Library" })
   .then(dbLibrary => {
     console.log(dbLibrary);
   })
-  .catch(({message}) => {
+  .catch(({ message }) => {
     console.log(message);
   });
 
-app.post("/submit", ({body}, res) => {
+app.post("/submit", ({ body }, res) => {
   db.Book.create(body)
-    .then(({_id}) => db.Library.findOneAndUpdate({}, { $push: { books: _id } }, { new: true }))
+    .then(({ _id }) => db.Library.findOneAndUpdate({}, { $push: { books: _id } }, { new: true }))
     .then(dbLibrary => {
       res.json(dbLibrary);
     })

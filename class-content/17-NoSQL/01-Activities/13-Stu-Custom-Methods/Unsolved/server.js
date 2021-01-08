@@ -17,12 +17,12 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/custommethoddb", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/custommethoddb", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
 
 // Routes
 
 // Route to post our form submission to mongoDB via mongoose
-app.post("/submit", ({body}, res) => {
+app.post("/submit", ({ body }, res) => {
   // Create a new user using req.body
 
   // Update this route to run the `setFullName` and `lastUpdatedDate` methods before creating a new User
