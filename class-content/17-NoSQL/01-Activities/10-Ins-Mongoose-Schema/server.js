@@ -2,14 +2,13 @@ const mongoose = require("mongoose");
 
 const Example = require("./exampleModel.js");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dbExample", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dbExample", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
 
 const data = {
-  array: ["item1", "item2", "item3"],
-  boolean: false,
-  string:
-    "\"Don't worry if it doesn't work right. If everything did, you'd be out of a job\" - Mosher's Law of Software Engineering",
-  number: 42
+  favoriteThings: ["daylight", "eating", "wearing pants"],
+  isAwesome: false,
+  firstname: "Malachai",
+  studentId: 50
 };
 
 Example.create(data)

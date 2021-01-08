@@ -2,13 +2,13 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const ExampleSchema = new Schema({
-  string: {
+  firstname: {
     type: String,
     trim: true,
-    required: "String is Required"
+    required: "First Name is Required"
   },
 
-  number: {
+  studentId: {
     type: Number,
     unique: true,
     required: true
@@ -19,16 +19,16 @@ const ExampleSchema = new Schema({
     match: [/.+@.+\..+/, "Please enter a valid e-mail address"]
   },
 
-  boolean: Boolean,
+  isAwesome: Boolean,
 
-  array: Array,
+  favoriteThings: Array,
 
-  date: {
+  birthday: {
     type: Date,
     default: Date.now
   },
 
-  longstring: {
+  bio: {
     type: String,
     validate: [({ length }) => length >= 6, "Longstring should be longer."]
   }
