@@ -5,6 +5,7 @@
 // Dependencies
 // =============================================================
 var Book = require("../models/book.js");
+const { getTableName } = require("../models/book.js");
 
 
 // Routes
@@ -13,7 +14,9 @@ module.exports = function(app) {
 
   // Add sequelize code to get all books and return them as JSON
   app.get("/api/all", function(req, res) {
-
+    Book.findAll({}).then((results)=>{
+      res.json(results);
+    })
   });
 
   // Add sequelize code to get a specific book and return it as JSON
@@ -43,7 +46,16 @@ module.exports = function(app) {
 
   // Add sequelize code to create a book
   app.post("/api/new", function(req, res) {
-
+    Book.create({
+      title: req.body.title,
+      author: req.body.author,
+      genre: req.body.genre,
+      pages: req.body.pages
+    }).then(
+      (results)=>{
+        res.end();
+      }
+    )
   });
 
   // Add sequelize code to delete a book
