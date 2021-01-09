@@ -384,3 +384,8 @@ prototype is the object that is used to build __proto__ when you create an objec
 - [What’s the Difference Between JPG, PNG, and GIF?](https://www.howtogeek.com/howto/30941/whats-the-difference-between-jpg-png-and-gif/)
 - [What is SVG and how to use it](https://logotypemaker.com/blog/design-tips-what-is-svg-file-and-how-to-use-it/)
 - [Now You See Me: How To Defer, Lazy-Load And Act With IntersectionObserver](https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/)
+
+## Offline Web Apps (aka, Progressive Web Applications)
+- [Getting Started with Persistent Offline Storage with IndexedDB](https://itnext.io/getting-started-with-persistent-offline-storage-with-indexeddb-1af66727246c)
+- [Searching in Your IndexedDB Database](https://itnext.io/searching-in-your-indexeddb-database-d7cbf202a17)
+- [How To Add Index to Pre-Existing ObjectStore In IndexedDB](https://stackoverflow.com/questions/41086495/how-to-add-index-to-pre-existing-objectstore-in-indexeddb)
