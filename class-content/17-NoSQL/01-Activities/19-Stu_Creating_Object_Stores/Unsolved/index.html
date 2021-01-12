@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Creating An Object Store</title>
+  </head>
+
+  <body>
+    <h1>Open Your Developer Tools > Application > IndexedDB</h1>
+    <script>
+      const connection = indexedDB.open("Database", 1);
+      connection.onupgradeneeded = e =>{
+        console.log(e)
+        const db = e.target.result;
+        console.log(db);
+        const objectStore = db.createObjectStore("toDoList");
+        
+
+      };
+
+
+
+    // CODE HERE
+    </script>
+  </body>
+</html>
