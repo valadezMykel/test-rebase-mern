@@ -8,7 +8,7 @@ In this activity you will minify your JavaScript using an online tool.
 
 * Copy the contents of one of your JS files into the compressor and click on the `Compress JavaScript` button.
 
-  * If you see an error, try checking the box labeled `ECMAScript 2019 (via babel-minify)` before trying again.
+  * If you see an error, try checking the box labeled `ECMAScript 2021 (via babel-minify)` before trying again.
 
 * Note the resulting Input/Output sizes of the JS as shown to the bottom of the textarea.
 
