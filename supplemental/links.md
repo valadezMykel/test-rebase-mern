@@ -206,6 +206,7 @@ Supplemental tools for diagramming, wireframing and testing.
 ### Functions
 
 - [Programming Basics: Statements & Functions: Crash Course Computer Science](https://youtu.be/l26oaHV7D40)
+- [JavaScript: What Are Pure Functions And Why Use Them](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
 
 ### How Javascript works
 
@@ -389,3 +390,4 @@ prototype is the object that is used to build __proto__ when you create an objec
 - [Getting Started with Persistent Offline Storage with IndexedDB](https://itnext.io/getting-started-with-persistent-offline-storage-with-indexeddb-1af66727246c)
 - [Searching in Your IndexedDB Database](https://itnext.io/searching-in-your-indexeddb-database-d7cbf202a17)
 - [How To Add Index to Pre-Existing ObjectStore In IndexedDB](https://stackoverflow.com/questions/41086495/how-to-add-index-to-pre-existing-objectstore-in-indexeddb)
+- [How Service Worker Cache Works - Does It Make Your Site Faster?](https://love2dev.com/blog/service-worker-cache/)
