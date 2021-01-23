@@ -285,6 +285,7 @@ prototype is the object that is used to build __proto__ when you create an objec
 ## Node
 
 - [The Basics of Package.json in Node.js and npm](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/)
+- [Introducing npx: an npm package runner](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b#:~:text=npx%20is%20a%20tool%20intended,executables%20hosted%20on%20the%20registry.)
 - [Are middlewares an implementation of the Decorator pattern?](https://stackoverflow.com/questions/48696631/are-middlewares-an-implementation-of-the-decorator-pattern)
 
 > Middleware and decorators are similar and can do the same job. They provide a means of inserting intermediary effects either before or after other effects downstream in the chain/stack.
