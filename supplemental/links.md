@@ -355,6 +355,7 @@ prototype is the object that is used to build __proto__ when you create an objec
 - [What are render phase and commit phase in React DOM?](https://techdoma.in/react-16-tutorial/what-are-render-phase-and-commit-phase-in-react/)
 - [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 - [How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively)
+- [Why React Hooks](https://ui.dev/why-react-hooks/)
 
 ## Design Patterns
 
