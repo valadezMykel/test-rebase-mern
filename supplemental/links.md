@@ -342,6 +342,7 @@ prototype is the object that is used to build __proto__ when you create an objec
 
 ## React
 
+- [Single-page application vs. multiple-page application](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
 - [Hello World](https://facebook.github.io/react/docs/hello-world.html)
 - [Introducing JSX](https://facebook.github.io/react/docs/introducing-jsx.html)
 - [Rendering Elements](https://facebook.github.io/react/docs/rendering-elements.html)
