@@ -357,6 +357,8 @@ prototype is the object that is used to build __proto__ when you create an objec
 - [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 - [How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively)
 - [Why React Hooks](https://ui.dev/why-react-hooks/)
+- [How to Deal With Circular Dependencies in React Hooks](https://medium.com/swlh/how-to-deal-with-circular-dependencies-in-react-hooks-70cf028b689e)
+- [Is it safe to omit functions from the list of dependencies?](https://reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies)
 
 ## Design Patterns
 
