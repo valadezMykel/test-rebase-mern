@@ -206,6 +206,7 @@ Supplemental tools for diagramming, wireframing and testing.
 ### Functions
 
 - [Programming Basics: Statements & Functions: Crash Course Computer Science](https://youtu.be/l26oaHV7D40)
+- [JavaScript: What Are Pure Functions And Why Use Them](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
 
 ### How Javascript works
 
@@ -284,6 +285,7 @@ prototype is the object that is used to build __proto__ when you create an objec
 ## Node
 
 - [The Basics of Package.json in Node.js and npm](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/)
+- [Introducing npx: an npm package runner](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b#:~:text=npx%20is%20a%20tool%20intended,executables%20hosted%20on%20the%20registry.)
 - [Are middlewares an implementation of the Decorator pattern?](https://stackoverflow.com/questions/48696631/are-middlewares-an-implementation-of-the-decorator-pattern)
 
 > Middleware and decorators are similar and can do the same job. They provide a means of inserting intermediary effects either before or after other effects downstream in the chain/stack.
@@ -340,6 +342,7 @@ prototype is the object that is used to build __proto__ when you create an objec
 
 ## React
 
+- [Single-page application vs. multiple-page application](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
 - [Hello World](https://facebook.github.io/react/docs/hello-world.html)
 - [Introducing JSX](https://facebook.github.io/react/docs/introducing-jsx.html)
 - [Rendering Elements](https://facebook.github.io/react/docs/rendering-elements.html)
@@ -353,6 +356,9 @@ prototype is the object that is used to build __proto__ when you create an objec
 - [What are render phase and commit phase in React DOM?](https://techdoma.in/react-16-tutorial/what-are-render-phase-and-commit-phase-in-react/)
 - [Application State Management with React](https://kentcdodds.com/blog/application-state-management-with-react)
 - [How to use React Context effectively](https://kentcdodds.com/blog/how-to-use-react-context-effectively)
+- [Why React Hooks](https://ui.dev/why-react-hooks/)
+- [How to Deal With Circular Dependencies in React Hooks](https://medium.com/swlh/how-to-deal-with-circular-dependencies-in-react-hooks-70cf028b689e)
+- [Is it safe to omit functions from the list of dependencies?](https://reactjs.org/docs/hooks-faq.html#is-it-safe-to-omit-functions-from-the-list-of-dependencies)
 
 ## Design Patterns
 
@@ -389,3 +395,4 @@ prototype is the object that is used to build __proto__ when you create an objec
 - [Getting Started with Persistent Offline Storage with IndexedDB](https://itnext.io/getting-started-with-persistent-offline-storage-with-indexeddb-1af66727246c)
 - [Searching in Your IndexedDB Database](https://itnext.io/searching-in-your-indexeddb-database-d7cbf202a17)
 - [How To Add Index to Pre-Existing ObjectStore In IndexedDB](https://stackoverflow.com/questions/41086495/how-to-add-index-to-pre-existing-objectstore-in-indexeddb)
+- [How Service Worker Cache Works - Does It Make Your Site Faster?](https://love2dev.com/blog/service-worker-cache/)
